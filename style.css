@@ -60,12 +60,17 @@ body{
     max-width: 800px; 
     margin: 0 auto;  
     text-align: center;
+    padding: 10px 0;
 }
 
 .header nav a {
     margin: 0 15px;
     text-decoration: none;
     color: blueviolet;
+}
+
+.header nav {
+    margin-top: 10px;
 }
 
 .header nav :hover {
@@ -89,9 +94,8 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     position: absolute;
-    top: auto;
-    right: 500px;
-    margin-top: 30px;
+    right: 33%;
+    margin-top: 35px;
 
 
 }
