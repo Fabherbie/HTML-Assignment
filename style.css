@@ -10,16 +10,24 @@ body{
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    border-top: 5px solid blueviolet;
-
+    border-top: 8px solid blueviolet;
+    position: relative;
+    align-items: center;
+    width: auto;
 }
-
+ 
 
 
 .main-image {
-    width: 500px;
+    width: 600px;
     height: auto;
 }
+
+.author-image{
+    margin-bottom: 0;
+    width: 100px;
+}
+
 
 .first-card {
     border: 2px solid rgb(28, 19, 71);
@@ -48,11 +56,12 @@ body{
 
 .header {
     background-color: beige;
-    text-align: center;
-    max-width: 650px;
+    text-align: justify;
+    max-width: 100%;
     padding: 20px;
     color: blueviolet;
     margin: 0 auto;
+    position: relative;
 
 }
 
@@ -89,13 +98,14 @@ body{
     background-color: blueviolet;
     color: white;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: 900;
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
     position: absolute;
-    right: 33%;
-    margin-top: 35px;
+    right: 20%;
+    margin: 4px;
+    top: 0;
 
 
 }
@@ -112,6 +122,11 @@ body{
 .topic{
     margin-bottom: 20px;
     color: blueviolet;
+    text-align: justify;
+    font-size: 40px;
+    text-align: justify;
+    word-spacing: 6px;
+    
 
 }
 
@@ -156,11 +171,11 @@ body{
 }
 
 .article-container ol{
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .article-container ul{
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .conclusion{
@@ -172,8 +187,6 @@ body{
     text-decoration: underline;
     text-transform: uppercase;
 }
-
-
 
 
 .like{
@@ -202,16 +215,19 @@ button.like:hover{
     margin-top: 30px;
     border-top: solid 5px blueviolet;
     border-bottom: solid 5px blueviolet;
+    position: relative\;
+    
     
 }
 
 .article-container {
-    max-width: 800px; 
     margin: 0 auto; 
     padding: 20px; 
-    text-align: left; 
     position: relative; 
     left: 100px; 
+    width: 72rem;
+    display: block;
+    align-items: center;
 }
 
 article {
