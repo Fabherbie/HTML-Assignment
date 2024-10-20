@@ -95,10 +95,10 @@ body{
 }
 
 .tag{
-    background-color: blueviolet;
+    background-color: #2fe40a;
     color: white;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
@@ -203,7 +203,7 @@ body{
 }
 
 button.like:hover{
-    background-color: #6a0dad;
+    background-color: #2fe40a
 
 }    
 
@@ -244,7 +244,7 @@ article {
 }
 .web-dev:hover{
     text-decoration: underline;
-    color: #6a0dad;
+    color: #2fe40a;
 }
 
 .unknown{
@@ -255,7 +255,7 @@ article {
 
 .unknown:hover{
     text-decoration: underline;
-    color: #6a0dad;
+    color: #2fe40a;
 }
 
 .java-script{
@@ -266,7 +266,7 @@ article {
 
 .java-script:hover{
     text-decoration: underline;
-    color: #6a0dad;
+    color: #2fe40a;
 }
 
 footer{
